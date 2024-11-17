@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color: #164cb8; /* Customize background color */
+    color: rgb(255, 255, 255); /* Customize text color */
+    width: 100vw;
+    height:90px;      
+    font-family: Lucida Console, Monospace;
+    display: block;
+}
+
+
+.title_container {
+    padding-left: 10vw;
+    min-width: 200px;
+    height: 100%;      
+    float: left;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.title_container h1{
+    margin-top:20px;
+    height:50px;
+}
+
+.authors {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20%;
+    float:right;
+
+    background-color: rgb(0, 0, 0);
+}
+
+
+

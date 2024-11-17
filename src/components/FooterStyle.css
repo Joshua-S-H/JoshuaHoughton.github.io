@@ -1,0 +1,109 @@
+/* Footer background and text styling */
+/* 
+footer {
+    background-color: #d70909; 
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+   */
+
+footer {
+    background-color: #164cb8; /* Customize background color */
+    color: rgb(237, 236, 240);              /* Customize text color */
+    padding: 30px;
+    text-align: center;
+    width: 100%;               /* Full width */
+    position: fixed;           /* Sticks footer to bottom of viewport */
+    bottom: 0;                 /* Aligns footer to bottom */
+    left: 0;                   /* Starts footer from the left edge */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    font-family: Lucida Console, Monospace;
+}
+
+.socials-section {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 00px;
+    /* min-width: 40px; */
+    max-width: 430px;
+    /* margin:0; */
+    
+}
+
+.footer-section {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 00px;
+    /* min-width: 40px; */
+    /* margin:0; */
+    padding-right: 05%;
+}
+
+img {
+    /* filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 255, 255));
+     */
+    filter: invert(100%);
+}
+
+.about-section {
+    /* flex: 1; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 00px;
+    max-width: 550px;
+    padding-left: 05%;
+    padding-right: 05%;
+    /* margin:0; */
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 60px;      /* Footer height */
+    box-sizing: border-box;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.icon-style {
+    height:40px;
+    margin-left:20px;
+    margin-top:5px;
+  }
+  
+.icon-style:hover {
+    transform: scale(1.5);
+    /* background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px; */
+}
+
+.socials-section:hover {
+    
+
+}
+
+
+  /* footer a {
+    color: #070707; 
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #030303; 
+  }  */
