@@ -1,12 +1,3 @@
-/* Footer background and text styling */
-/* 
-footer {
-    background-color: #d70909; 
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-   */
 
 footer {
     background-color: #164cb8; /* Customize background color */
@@ -15,8 +6,10 @@ footer {
     text-align: center;
     width: 100%;               /* Full width */
     position: fixed;           /* Sticks footer to bottom of viewport */
-    bottom: 0;                 /* Aligns footer to bottom */
-    left: 0;                   /* Starts footer from the left edge */
+    position: relative; /* Ensure normal document flow */
+    clear: both; /* Clears floats above */
+    /* bottom: 0;                 */
+    /* left: 0;                    */
     /* display: flex; */
     /* justify-content: flex-end; */
     font-family: Lucida Console, Monospace;
@@ -39,7 +32,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 00px;
+    /* gap: 00px; */
     /* min-width: 40px; */
     /* margin:0; */
     padding-right: 05%;
@@ -71,12 +64,12 @@ img {
 
 body {
     margin: 0;
-    padding-bottom: 60px;      /* Footer height */
+    padding: 0 0 0px 0; /* Add padding-bottom to avoid content being hidden behind the footer */
     box-sizing: border-box;
 }
 
 footer p {
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 0;
 }
 
