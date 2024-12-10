@@ -1,19 +1,37 @@
 #root {
   margin: 0 auto;
   text-align: center;
+
+  /* Colour Set 1 */
+  /* --primary-bg-color: #164cb8;
+  --primary-text-color: rgb(255, 255, 255);
+  --secondary-text-color: #000000;
+  --image-filter: invert(100%); */
+
+
+  /* Colour Set 2 */
+  /* --primary-bg-color: rgb(107, 51, 1);
+  --secondary-bg-color: #d7a577;
+  --primary-text-color: rgb(255, 255, 255);
+  --image-filter: invert(100%);
+
+  --secondary-text-color: rgb(107, 51, 1); */
+
+
+  /* Colour Set 3 */
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #ffffff;
+  
+  --image-filter: invert(0%);
 }
 
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
+  will-change: filter; 
+ transition: filter 300ms;
+} 
+*/
 
-.h1:hover {
-  filter: drop-shadow(0 0 2em #bd1212f4);
-}
 
-.read-the-docs {
-  color: #ff0000;
-}

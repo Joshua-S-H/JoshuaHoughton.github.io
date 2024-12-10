@@ -1,7 +1,7 @@
 
 footer {
-    background-color: #164cb8; /* Customize background color */
-    color: rgb(237, 236, 240);              /* Customize text color */
+    background-color: var(--primary-bg-color); /* Customize background color */
+    color: var(--primary-text-color); /* Customize text color */
     padding: 30px;
     text-align: center;
     width: 100%;               /* Full width */
@@ -41,7 +41,8 @@ footer {
 img {
     /* filter: opacity(0.5) drop-shadow(0 0 0 rgb(255, 255, 255));
      */
-    filter: invert(100%);
+    /* filter: invert(100%); */
+    filter: var(--image-filter);
 }
 
 .about-section {
@@ -81,22 +82,8 @@ footer p {
   
 .icon-style:hover {
     transform: scale(1.5);
+    /* filter: invert(0%); */
+
     /* background-color: rgba(255, 255, 255, 0.05);
     border-radius: 8px; */
 }
-
-.socials-section:hover {
-    
-
-}
-
-
-  /* footer a {
-    color: #070707; 
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  footer a:hover {
-    color: #030303; 
-  }  */
