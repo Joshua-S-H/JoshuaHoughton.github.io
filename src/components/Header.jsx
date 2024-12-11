@@ -11,7 +11,9 @@ export function Header({ setCurrentPage }){
 
                 <div className="title_clicks">
                 <div className="nav_bar">
-                    <h3>Projects</h3>
+                    <a href = "#projects">
+                        <h3>Projects</h3>
+                    </a>
                     <h3>Skills</h3>
                 </div>
 

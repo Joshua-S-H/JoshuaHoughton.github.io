@@ -5,7 +5,7 @@ export function Footer(){
         <>
         <footer>
            
-            <div className="footer-section">
+            <div id="projects" className="footer-section">
                 <div className="about-section">
                     {/* <h3>About</h3> */}
                     {/* <p>Write this about. Open to work</p> */}

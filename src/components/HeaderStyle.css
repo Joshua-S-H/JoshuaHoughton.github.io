@@ -78,6 +78,18 @@
     transition: transform 0.3s ease-in-out;
 }
 
+.nav_bar a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.nav_bar a:hover {
+    color: var(--secondary-text-color);
+    transform: scale(1.1);
+}
+
 .title_clicks {
     display: flex; /* Use flexbox to align items horizontally */
     justify-content: space-around; /* Distribute items evenly */

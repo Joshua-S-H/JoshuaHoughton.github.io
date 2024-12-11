@@ -1,15 +1,31 @@
-// import './ProjectsStyle.css'
+import "./ProjectsStyle.css";
 
-export function Projects(){
-    return (
-        <>  
-            <div>
-                <h1>The Projects</h1>
-                <h2>In Progress</h2>
-                <h4>Strava Analytics, Automated Emailer</h4>
-                <h2>Finished Projects</h2>
-                <h4>Empty :/</h4>
-            </div>
-        </>
-    )
+const projects = [
+  {
+    name: "strava   ",
+    description: "I did some strava",
+    link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  },
+  { name: "Automatic Emailer", description: "some text", link: "some link" },
+  { name: "Stock Prices", description: "some text", link: "some link" },
+];
+
+export function Projects() {
+  return (
+    <>
+      <div className="projects">
+        <h2>The Projects</h2>
+        <div class="projects-container">
+          {projects.map((project, projectIndex) => (
+            <a href={project.link} target="_blank">
+                <button key={projectIndex} class="box">
+                    <h3>{project.name}</h3>
+                    <p>{project.description}</p>
+                </button>
+            </a>
+          ))}
+        </div>
+      </div>
+    </>
+  );
 }
