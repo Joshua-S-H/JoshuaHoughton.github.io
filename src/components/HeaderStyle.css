@@ -6,7 +6,7 @@
     height: 140px;      
     /* font-family: Lucida Console, Monospace; */
     /* font-family: Oswald, sans-serif; */
-    font-family: "Montserrat", sans-serif !important; /* Ensure Montserrat is applied */
+    font-family: "Montserrat", sans-serif; /* Ensure Montserrat is applied */
     display: block;
 }
 
