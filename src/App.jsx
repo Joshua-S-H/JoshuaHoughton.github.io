@@ -4,7 +4,7 @@ import './App.css'
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Welcome } from "./components/Welcome";
-// import { Head } from './components/Head'; // Re-add this import
+import { Projects } from "./components/Projects";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,15 +15,9 @@ function App() {
 
       <Header />
 
-      {/* <Welcome /> */}
+      <Welcome />
 
-      <div>
-        <h1>Projects</h1>
-        <h2>In Progress</h2>
-        <h4>Strava Analytics, Automated Emailer</h4>
-        <h2>Finished Projects</h2>
-        <h4>Empty :/</h4>
-      </div>
+      <Projects />
 
       <div>
         <h1>Skills</h1>
@@ -40,7 +34,7 @@ function App() {
       </div>
       
 
-      <div className="card">
+      {/* <div className="card"> */}
 
         {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -48,7 +42,7 @@ function App() {
         {/* <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p> */}
-      </div>
+      {/* </div> */}
       {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
