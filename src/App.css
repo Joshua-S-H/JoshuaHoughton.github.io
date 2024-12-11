@@ -23,6 +23,20 @@
   --secondary-bg-color: #ffffff;
   
   --image-filter: invert(0%); */
+
+
+
+
+  a {
+    color: var(--primary-text-color);
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Hover state */
+  a:hover {
+    color: var(--primary-text-color);
+    text-decoration: underline; /* Add underline */
+  }
 }
 
 /* 
