@@ -3,13 +3,13 @@
 
 .skills {
     color: var(--secondary-text-color) !important; 
-    background-color: var(--secondary-bg-color); 
+    background-color: var(--primary-text-color); 
     font-family: "Montserrat", sans-serif ;
 }
 
 
 .skills h2 {
-    font-weight: 400 !important; /* Ensure font-weight is applied */
+    font-weight: 300 !important; /* Ensure font-weight is applied */
     font-size: 2em;
     text-align: left;
     margin-left: 5vw;
@@ -30,22 +30,30 @@ a {
   table {
     width: 80%;
     border-collapse: collapse;
-    margin-left: 10%;
+    margin-left: 10%; 
+
+
   }
+
+
   th, td {
     /* border: 1px solid var(--secondary-text-color); */
     padding: 8px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif ;
+
+
   }
   th {
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color);
-    font-weight: bold;
+    font-weight: 600;
   }
 
-  tr:nth-child(even) {
-    /* background-color: #f9f9f9; */
-  }
   tr:hover {
-    /* background-color: #f1f1f1; */
-    transform: scale(1.05); /* Scale the box on hover */
+    background-color:var(--primary-bg-color);
+    color: var(--primary-text-color);
+
   }
+

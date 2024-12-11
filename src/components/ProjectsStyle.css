@@ -3,7 +3,7 @@
 
 .projects {
     color: var(--secondary-text-color) !important; 
-    background-color: var(--secondary-bg-color); 
+    background-color: var(--primary-text-color); 
     font-family: "Montserrat", sans-serif ;
 }
 
@@ -18,7 +18,7 @@
 .box {
     width: 25rem;       
     height: 16rem;       
-    background-color: var(--secondary-bg-color);
+    background-color: var(--primary-text-color);
     color: var(--secondary-text-color);      
     display: flex; 
     flex-direction: column;

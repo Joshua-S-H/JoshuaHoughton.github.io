@@ -4,6 +4,7 @@
 
   /* Colour Set 1 */
   --primary-bg-color: #232323;
+  --secondary-bg-color: #585858;
   --primary-text-color: rgb(255, 255, 255);
   --secondary-text-color: #000000;
   --image-filter: invert(100%);

@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer";
 import { Welcome } from "./components/Welcome";
 import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
+import { Who } from "./components/Who";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,14 +18,12 @@ function App() {
 
       {/* <Welcome /> */}
 
+      <Who />
+
       <Projects />
 
       <Skills />
 
-      <div>
-        <h1>Skills</h1>
-        <h4>HTML, CSS, Python (Pandas), MATLAB, C# </h4>
-      </div>
 
       <div>
         <h1>More Random Content</h1>

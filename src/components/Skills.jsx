@@ -11,7 +11,7 @@ export function Skills() {
 ◆ Version Control | Git & GitHub */}
 
       <div className="skills">
-        <h2>Skills</h2>
+        <h2>Key Skills</h2>
         <table>
           <thead>
             <tr>
