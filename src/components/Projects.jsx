@@ -1,6 +1,6 @@
 // import './ProjectsStyle.css'
 
-export function Welcome(){
+export function Projects(){
     return (
         <>  
             <div>
