@@ -7,8 +7,8 @@ export function Footer(){
            
             <div className="footer-section">
                 <div className="about-section">
-                    <h2>About</h2>
-                    <p>Write this about. Open to work</p>
+                    {/* <h3>About</h3> */}
+                    {/* <p>Write this about. Open to work</p> */}
                 </div>
                 
                 <div>    

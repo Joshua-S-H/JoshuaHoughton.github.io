@@ -4,15 +4,18 @@ import './App.css'
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Welcome } from "./components/Welcome";
+// import { Head } from './components/Head'; // Re-add this import
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      {/* <Head /> Re-add this component */}
+
       <Header />
 
-      <Welcome />
+      {/* <Welcome /> */}
 
       <div>
         <h1>Projects</h1>

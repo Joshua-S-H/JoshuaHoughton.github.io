@@ -6,7 +6,7 @@ export function Header({ setCurrentPage }){
             <div className ="header">
                 <div className="title_container">
                     <h1>Joshua Houghton</h1>
-                    <h3>Aspiring Software Engineer</h3>
+                    <h3>Aspiring Software Engineer / Data Analyst</h3>
                 </div>
 
                 <div className="title_clicks">

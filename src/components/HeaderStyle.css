@@ -1,16 +1,14 @@
 .header {
     background-color: var(--primary-bg-color);
     /* background-color: rgb(107, 51, 1); */
-
-
     color: var(--primary-text-color); /* Customize text color */
-    
     width: 100vw;
-    height:120px;      
-    font-family: Lucida Console, Monospace;
+    height: 140px;      
+    /* font-family: Lucida Console, Monospace; */
+    /* font-family: Oswald, sans-serif; */
+    font-family: "Montserrat", sans-serif !important; /* Ensure Montserrat is applied */
     display: block;
 }
-
 
 .title_container {
     padding-left: 10vw;
@@ -24,9 +22,14 @@
 
 .title_container h1{
     margin-top:20px;
-    height:20px;
+    height:30px;
+    font-weight: 100 !important; /* Ensure font-weight is applied */
+    font-size: 4rem;
 }
 
+.title_container h3{
+    font-weight: 400; /* Ensure font-weight is applied */
+}
 
 
 .socials-section {
@@ -41,7 +44,6 @@
     /* height: 100%; */
     /* margin:0; */
     max-width: 300px;
-    
 }
 
 .social-icons-container {
