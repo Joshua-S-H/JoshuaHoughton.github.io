@@ -12,7 +12,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/JoshuaHoughton/',
+  base: '/JoshuaHoughton.github.io/',
   plugins: [react()],
   // any extra bits
 })
