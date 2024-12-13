@@ -5,6 +5,7 @@
     color: var(--secondary-text-color) !important; 
     background-color: var(--primary-text-color); 
     font-family: "Montserrat", sans-serif ;
+    margin-bottom: 2rem;
 }
 
 
@@ -31,8 +32,6 @@ a {
     width: 80%;
     border-collapse: collapse;
     margin-left: 10%; 
-
-
   }
 
 

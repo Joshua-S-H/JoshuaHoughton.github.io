@@ -14,7 +14,9 @@ export function Header({ setCurrentPage }){
                     <a href = "#projects">
                         <h3>Projects</h3>
                     </a>
-                    <h3>Skills</h3>
+                    <a href = "#skills">
+                        <h3>Skills</h3>
+                    </a>
                 </div>
 
                 <div className="socials-section">

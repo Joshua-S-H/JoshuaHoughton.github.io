@@ -21,7 +21,7 @@ const projects = [
 export function Projects() {
   return (
     <>
-      <div className="projects">
+      <div id="projects" className="projects">
         <h2>Projects</h2>
         <div class="projects-container">
           {projects.map((project, projectIndex) => (

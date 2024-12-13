@@ -5,12 +5,7 @@ export function Skills() {
     <>
 
 
-{/* ◆ Data Analysis & Visualisation | MATLAB, Key Python Libraries (pandas, Matplotlib, NumPy, SciPy)
-◆ AI and Machine Learning | Training Artificial Neural Networks for Regression and Classification, Machine Vision
-◆ Programming | Python, C#, SQL
-◆ Version Control | Git & GitHub */}
-
-      <div className="skills">
+      <div id="skills" className="skills">
         <h2>Key Skills</h2>
         <table>
           <thead>

@@ -24,17 +24,6 @@ function App() {
 
       <Skills />
 
-
-      <div>
-        <h1>More Random Content</h1>
-        <h4>HTML, CSS, Python (Pandas), MATLAB, C# </h4>
-      </div>
-      
-      <div>
-        <h1>More Random Content</h1>
-        <h4>HTML, CSS, Python (Pandas), MATLAB, C# </h4>
-      </div>
-    
       <Footer />
 
     </>
